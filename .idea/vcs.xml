@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/api-integrate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/learn-redux" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/router-tutorial" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tutorial" vcs="Git" />
+  </component>
+</project>

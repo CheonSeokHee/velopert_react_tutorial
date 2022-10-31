@@ -1,12 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Users from './Users';
 
 function App() {
-  return (
-    <div>
-
-    </div>
-  );
+  return <Users />;
 }
-
 export default App;

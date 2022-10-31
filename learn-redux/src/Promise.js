@@ -13,7 +13,6 @@ devide(8, 2)
 
 
 
-
 //fetch GET 방식
 fetch('http://example.com/movies.json')
     .then((response) => response.json())

@@ -1,8 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
+
 //api 호출 예제
 //axios 예제 api 연동의 기본
+//요청에 대한 상태를 관리 (총 3가지 상태 관리)
+// 요청의 결과
+// 로딩 상태
+// 에러
 function Users() {
     const [users, setUsers] = useState(null);
     const [loading, setLoading] = useState(false);
@@ -29,8 +34,8 @@ function Users() {
         fetchUsers();
     }, []);
 
-    if (loading) return <div>로딩중..</div>;
-    if (error) return <div>에러가 발생했습니다</div>;
+    if (loading) return <div>로딩중 입니다..</div>;
+    if (error) return <div>에러가 발생했습니다 요청을 다시 확인 해주세요</div>;
     if (!users) return null;
     return (
         <>

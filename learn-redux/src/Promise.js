@@ -12,7 +12,6 @@ devide(8, 2)
     .catch((error) => console.log("실패:", error));
 
 
-
 //fetch GET 방식
 fetch('http://example.com/movies.json')
     .then((response) => response.json())

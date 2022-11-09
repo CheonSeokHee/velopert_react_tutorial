@@ -43,6 +43,7 @@ function Users() {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
 
+
     const fetchUsers = async () => {
         try {
             // 요청이 시작 할 때에는 error 와 users 를 초기화하고
